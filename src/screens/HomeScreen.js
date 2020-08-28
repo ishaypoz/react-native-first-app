@@ -8,7 +8,10 @@ const HomeScreen = (props) => {
 		<View>
 			<Text style={styles.text}>HomeScreen</Text>
 			<Button onPress={() => props.navigation.navigate('Components')} title="Go to Components Demo" />
-			<Button onPress={() => props.navigation.navigate('Image')} title="Go to Image Screen" />
+			<Button onPress={() => props.navigation.navigate('Image')} title="Go to Image Demo" />
+			<Button onPress={() => props.navigation.navigate('Counter')} title="Go to Counter Demo " />
+			<Button onPress={() => props.navigation.navigate('Color')} title="Go to Color Demo" />{' '}
+			<Button onPress={() => props.navigation.navigate('Square')} title="Go to Square Demo" />
 			<TouchableOpacity onPress={() => props.navigation.navigate('List')}>Go to List Demo</TouchableOpacity>
 		</View>
 	);
